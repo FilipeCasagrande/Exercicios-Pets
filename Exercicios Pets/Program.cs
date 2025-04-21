@@ -10,6 +10,7 @@ namespace Exercicios_Pets
         {
             Pet animal1 = new Pet();
             animal1.Animal();
+
             Console.WriteLine("-------------------------------");
 
             Pet animal2 = new Pet();

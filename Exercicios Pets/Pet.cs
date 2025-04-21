@@ -4,7 +4,6 @@ namespace Exercicios_Pets
 {
     public class Pet
     {
-
         public string nome;
         public string tipo;
         public int idade;
@@ -23,17 +22,13 @@ namespace Exercicios_Pets
 
         public void exibirPet()
         {
-            Console.WriteLine("Informaçoes");
-            Console.WriteLine($"nome do animal é: {nome} ");
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Informaçoes do: " + nome);
+            Console.WriteLine($"Nome do animal é: {nome} ");
             Console.WriteLine($"Tipo de animal é: {tipo} ");
             Console.WriteLine($"Idade do animal é: {idade} ");
-
-
         }
-
-
     }
-
 }
 
 
